@@ -106,8 +106,6 @@ button {
 }
 .information-items {
     flex: 3;
-    padding-left: 80px;
-    padding-right: 80px;
     display: flex;
 }
 .information-header h2 {
