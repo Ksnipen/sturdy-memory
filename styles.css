@@ -39,7 +39,7 @@ body {
 ul {
     list-style-type: none;
 }
-li {
+.menu li {
     float: left;
     padding-left: 30px;
 }
@@ -58,7 +58,7 @@ li {
     padding-right: 20px;
     flex: 1;
 }
-h2 {
+.hero-text h2 {
     font-size: 48px;
     margin-bottom: -10px;
 }
@@ -86,4 +86,47 @@ button {
     font-weight: bolder;
     font-size: 18px;
     border: none;
+}
+.information-background {
+    height:auto;
+}
+.information-main-container {
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.information-header {
+    height: 150px;
+    flex: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+.information-items {
+    flex: 3;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+}
+.information-header h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color:#1F2937;
+}
+img {
+    border:#3882F6;
+    border-style: solid;
+    border-width: 4px;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+}
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+    font-size: 18px;
 }
